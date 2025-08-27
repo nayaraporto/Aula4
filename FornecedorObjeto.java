@@ -27,7 +27,9 @@ public class FornecedorObjeto {
 		System.out.println(fornecedor1.getEscricaoEstadual());
 		
 		fornecedor1.exibirFornecedor();
+		fornecedor1.aberto();
 
 	}
 
 }
+
