@@ -58,6 +58,9 @@ public class Fornecedor {
 	public void setEscricaoEstadual(String escricaoEstadual) {
 		this.escricaoEstadual = escricaoEstadual;
 	}
+	public void aberto() {
+		System.out.println("O fornecedor esta aberto");
+	}
 	public void exibirFornecedor() {
 		System.out.println("");
 		System.out.println(" O ID é : " + id);
