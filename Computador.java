@@ -23,12 +23,17 @@ public class Computador {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+	public void ligar() {
+	System.out.println("O computador esta ligado");}
+	
+	public void desligar() {
+		System.out.println("O computador esta ligado");}
+		
 	
 	public void exibirComputador() {
 		System.out.println("");
 		System.out.println(" A cor é: " + cor);
 		System.out.println(" A marca é: " + marca);
 		System.out.println(" O tipo é: " + tipo);
-
-}
-}
+    
+}}
