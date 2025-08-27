@@ -43,5 +43,13 @@ public class Cadeira {
 		System.out.println(" O material é: " + material);
 		System.out.println(" A usabilidade é: " + usabilidade);
 	}
-
+	
+	public void disponivel1() {
+		System.out.println("A cadeira esta disponível");
+	}
+    
+	public void disponivel2() {
+		System.out.println("A cadeira não esta disponível");
+	}
 }
+
